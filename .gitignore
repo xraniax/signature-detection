@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# YOLO training runs (large files)
+runs/detect/
+*.pt
+
+# Dataset (large files)
+yolo_data/
+*.png
+*.jpg
+*.jpeg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large model files
+yolo11n.pt
+yolov8n.pt
+yolov8s.pt
